@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Doctor Data </title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <B> ΑΤΟΜΙΚΑ ΣΤΟΙΧΕΙΑ ΑΣΘΕΝΗ: </B> </legend>
+            <br> username:
+            <input type="text" name="userid"> <br>
+            <br> password:
+            <input type="password" name="passid"> <br>
+            <br> Φύλο : <br>
+            <input type="radio" name="gender" value="male"> Άντρας <br>
+            <input type="radio" name="gender" value="female"> Γυναίκα <br>
+            <input type="radio" name="gender" value="unknown"> Άλλο <br>
+            <hr size="10" color="white">
+            <hr color="white">
+            <br> Ημερομηνία Γέννησης <input type="date" name="birthdate" value="Ημερομηνία Γέννησης">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> <b> ΑΠΟΤΕΛΕΣΜΑΤΑ : </b> </legend>
+            <br>
+            <ol>
+                <li> Σχόλια γιατρού......
+                <textarea>  
+
+
+                </textarea> 
+                .............
+                    <br>
+                    <li> Επιλογή Αρχείου <label for="myfile"> Επέλεξε ένα αρχείο Εξετάσεων :</label>
+                        <input type="file" id="myfile" name="myfile"> </li>
+                    <br>
+        </fieldset>
+    </form>
+    <input type="submit">
+    <input type="reset" value="Επαναφορά φόρμας"> <br> <br>
+    <h2> Επιλέξτε αλλαγή χρώματος </h2>
+Χρώμα γραμματοσειράς: <input type="color" onchange="body.style.color=this.value;"> <br>
+Χρώμα φόντου: <input type="color" onchange="body.style.backgroundColor=this.value;">
+
+</body>
+
+</html>

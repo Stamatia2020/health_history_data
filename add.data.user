@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Data </title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <B> ΑΤΟΜΙΚΑ ΣΤΟΙΧΕΙΑ: </B> </legend>
+            <br> username:
+            <input type="text" name="userid"> <br>
+            <br> password:
+            <input type="password" name="passid"> <br>
+            <br> Φύλο : <br>
+            <input type="radio" name="gender" value="male"> Άντρας <br>
+            <input type="radio" name="gender" value="female"> Γυναίκα <br>
+            <input type="radio" name="gender" value="unknown"> Άλλο <br>
+            <hr size="10" color="white">
+            <hr color="white">
+            <br> Ημερομηνία Γέννησης <input type="date" name="birthdate" value="Ημερομηνία Γέννησης">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> <b> ΕΡΩΤΗΣΕΙΣ : </b> </legend>
+            <br>
+            <ol>
+                <li>Ποιό είναι το αγαπημένο σας χρώμα <input type="color" name="color"> </li>
+                <br>
+                <li> Ποιό είναι το είδος διατροφής που προτιμάτε :
+                    <input type="checkbox" name="meat" value="meat"> Κρεατοφαγεία
+                    <input type="checkbox" name="vegatables" value="vegan"> Χορτοφαγεία
+                    <input type="checkbox" name="all" value="all"> τα πάντα </li>
+                <br>
+                <li> Ποιά είναι η αγαπημένη σας πόλη
+                    <select name="country">
+    <option value="GR"> ΕΛΛΑΔΑ </option>
+    <option value="EN"> ΑΓΓΛΙΑ </option>
+    <option value="US"> ΗΝΩΜΕΝΕΣ ΠΟΛΙΤΕΙΕΣ ΑΜΕΡΙΚΗΣ </option>
+    <option value="AL"> ΑΛΒΑΝΙΑ </option>
+    <option value="TR"> ΤΟΥΡΚΙΑ </option>
+    <option value="BG"> ΒΟΥΛΓΑΡΙΑ </option>
+    <option value="PGDM"> FERUM </option>
+    <option value="FR"> ΓΑΛΛΙΑ </option>
+    <option value="IT"> ΙΤΑΛΛΙΑ </option>
+</select> </li>
+                <br>
+                <li> Πόσο αγαπάς......<textarea rows="1" cols="7" style="background-color:powderblue;"> </textarea>........? 0 <input type="range" name="love" min=0 max=500> 500 </li>
+                <br>
+                <li> Επιλογή φωτογραφίας <label for="myfile"> Επέλεξε ένα αρχείο φωτογραφίας :</label>
+                    <input type="file" id="myfile" name="myfile"> </li>
+                <br>
+        </fieldset>
+    </form>
+    <input type="submit">
+    <input type="reset" value="Επαναφορά φόρμας"> <br>
+    <br>
+    <iframe src="https://www.youtube.com/watch?v=OcikmPbO2L4width=" width="420" height="315"></iframe>
+
+</body>
+
+</html>

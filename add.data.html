@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add Data </title>
+</head>
+
+<body>
+    <form style="background-color: lightblue">
+        <fieldset>
+            <legend>
+                <B> ΑΤΟΜΙΚΑ ΣΤΟΙΧΕΙΑ: </B> </legend>
+            <br> username:
+            <input type="text" name="userid"> <br>
+            <br> password:
+            <input type="password" name="passid"> <br>
+            <br> Φύλο : <br>
+            <input type="radio" name="gender" value="male"> Άντρας <br>
+            <input type="radio" name="gender" value="female"> Γυναίκα <br>
+            <input type="radio" name="gender" value="unknown"> Άλλο <br>
+            <hr size="10" color="white">
+            <hr color="white">
+            <br> Ημερομηνία Γέννησης <input type="date" name="birthdate" value="Ημερομηνία Γέννησης">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> <b> ΕΡΩΤΗΣΕΙΣ : </b> </legend>
+            <br>
+            <ol>
+                <li> Έχετε κάποια χρόνια ασθένεια;
+                    <input type="checkbox" name="yes"> Ναί
+                    <input type="checkbox" name="no"> Όχι
+                    <input type="checkbox" name="unknown"> Δεν γνωρίζω </li>
+                <br>
+                <li> Ποιό είναι το είδος διατροφής που προτιμάτε :
+                    <input type="checkbox" name="meat" value="meat"> Κρεατοφαγεία
+                    <input type="checkbox" name="vegatables" value="vegan"> Χορτοφαγεία
+                    <input type="checkbox" name="all" value="all"> Tα πάντα </li>
+                <br>
+                <li> Πόσο συχνά γυμνάζεσαι......? <input type="range" name="gym" min=0 max=500> 500 </li>
+                <br>
+                <li> Επιλογή Αρχείου: <label for="myfile"> Επέλεξε ένα αρχείο εξετάσεων :</label>
+                    <input type="file" id="myfile" name="myfile"> </li>
+                <br>
+        </fieldset>
+    </form>
+    <input type="submit">
+    <input type="reset" value="Επαναφορά φόρμας"> <br>
+
+</body>
+
+</html>
